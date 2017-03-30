@@ -3,7 +3,10 @@ class SomeClass:
     astring = "abc"
     anumber = 123    
     def Display(self):
-        print(self.anumber)        
+        print(self.anumber)
+
+obj = SomeClass()
+obj.Display()
 
 
 
